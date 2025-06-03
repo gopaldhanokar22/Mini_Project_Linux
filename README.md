@@ -14,6 +14,7 @@ __Project Information:__
   - /tmp/user1_fifo: For User 1 to receive messages.
   - /tmp/user2_fifo: For User 2 to receive messages.
 - Graceful Exit: Handles SIGINT (Ctrl+C) for proper cleanup of resources.
+- Duplex Communication: Each user writes to the other’s FIFO and reads from their own.
 
 __Task code:__
 ```
